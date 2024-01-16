@@ -198,8 +198,8 @@ export default function Servicios() {
           textAlign={{ xs: "center", sm: "left" }}
           sx={{ textWrap: "balance" }}
         >
-          Francisco Ternero es una empresa especializada en derribos, retirada
-          de amianto, excavaciones y demoliciones. Nuestra experiencia nos
+          Francisco Ternero es una empresa especializada en demoliciones,
+          retirada de amianto, excavaciones y reciclaje. Nuestra experiencia nos
           avala. Llámenos sin compromiso!.
         </Typography>
       </Box>
