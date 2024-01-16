@@ -28,6 +28,20 @@ export default function Footer() {
             >
               Demoliciones FT S.L.
             </Typography>
+            <Typography
+              variant="body1"
+              color={"white.main"}
+              maxWidth={{
+                xs: "100%",
+                sm: "100%",
+                md: "100%",
+                lg: "100%",
+                xl: "72%",
+              }}
+            >
+              Nos destacamos como líder en el sector a nivel local y nacional.
+              Conoce sobre nuestra trayectoria y trabajos actuales en redes.
+            </Typography>
           </Box>
         </Grid>
         <Grid
@@ -70,7 +84,7 @@ export default function Footer() {
           </Box>
           <Box borderTop={1} borderColor={"white.main"} mt={2}>
             <Typography variant="body2" color={"white.main"} mt={2}>
-              Siguenos en redes sociales para más información.
+              Redes sociales
             </Typography>
           </Box>
         </Grid>
