@@ -1,7 +1,7 @@
 import CardHeader from "../components/CardHeader/CardHeader";
-import {servicios} from "../constants/servicios";
-import {infoCards} from "../constants/infoCards";
-import {Box, Grid, Typography} from "@mui/material";
+import { servicios } from "../constants/servicios";
+import { infoCards } from "../constants/infoCards";
+import { Box, Grid, Typography } from "@mui/material";
 import BasicModal from "../components/Modal/BasicModal";
 import Ubi from "../components/Ubi/Ubi";
 
@@ -16,7 +16,7 @@ export default function Servicios() {
         gap={8}
       >
         {infoCards.map((card) => {
-          const {titulo, descripcion, img} = card;
+          const { titulo, descripcion, img } = card;
           return (
             <Grid key={titulo} item xs={8} sm={4} md={4} lg={2} xl={2}>
               <CardHeader titulo={titulo} descripcion={descripcion} img={img} />
@@ -27,7 +27,7 @@ export default function Servicios() {
       {/* Seccion Uno */}
       <Box
         display={"flex"}
-        flexDirection={{xs: "column", md: "row"}}
+        flexDirection={{ xs: "column", md: "row" }}
         justifyContent={"center"}
         alignItems={"center"}
         gap={2}
@@ -38,8 +38,8 @@ export default function Servicios() {
         <Typography
           variant="body1"
           color={"paragraph"}
-          width={{xs: "88%", sm: "32%"}}
-          textAlign={{xs: "center", sm: "left"}}
+          width={{ xs: "88%", sm: "32%" }}
+          textAlign={{ xs: "center", sm: "left" }}
         >
           Para satisfacer las necesidades cambiantes del mercado contamos con un
           gran capital humano, dotado de amplia experiencia y profesionalidad,
@@ -53,8 +53,8 @@ export default function Servicios() {
         justifyContent={"space-evenly"}
         alignItems={"center"}
         maxWidth={"96%"}
-        px={{xs: 1, lg: 12}}
-        gap={{xs: 8, lg: 14}}
+        px={{ xs: 1, lg: 12 }}
+        gap={{ xs: 8, lg: 14 }}
         my={16}
         py={2}
         borderLeft={4}
@@ -63,7 +63,7 @@ export default function Servicios() {
       >
         <Grid item xs={10} sm={8} md={6} lg={5} xl={5}>
           <Box
-            mb={{xs: 1, lg: 0}}
+            mb={{ xs: 1, lg: 0 }}
             p={2}
             bgcolor={"primary.main"}
             height={"320px"}
@@ -96,8 +96,8 @@ export default function Servicios() {
         justifyContent={"space-evenly"}
         alignItems={"center"}
         maxWidth={"96%"}
-        px={{xs: 1, lg: 12}}
-        gap={{xs: 8, lg: 14}}
+        px={{ xs: 1, lg: 12 }}
+        gap={{ xs: 8, lg: 14 }}
         my={16}
         py={2}
         borderRight={4}
@@ -120,7 +120,7 @@ export default function Servicios() {
         </Grid>
         <Grid item xs={10} sm={8} md={6} lg={5} xl={5}>
           <Box
-            mb={{xs: 1, lg: 0}}
+            mb={{ xs: 1, lg: 0 }}
             p={2}
             bgcolor={"primary.main"}
             height={"320px"}
@@ -139,8 +139,8 @@ export default function Servicios() {
         justifyContent={"space-evenly"}
         alignItems={"center"}
         maxWidth={"96%"}
-        px={{xs: 1, lg: 12}}
-        gap={{xs: 8, lg: 14}}
+        px={{ xs: 1, lg: 12 }}
+        gap={{ xs: 8, lg: 14 }}
         my={16}
         py={2}
         borderLeft={4}
@@ -149,7 +149,7 @@ export default function Servicios() {
       >
         <Grid item xs={10} sm={8} md={6} lg={5} xl={5}>
           <Box
-            mb={{xs: 1, lg: 0}}
+            mb={{ xs: 1, lg: 0 }}
             p={2}
             bgcolor={"primary.main"}
             height={"320px"}
@@ -182,7 +182,7 @@ export default function Servicios() {
       </Grid>
       <Box
         display={"flex"}
-        flexDirection={{xs: "column", md: "row"}}
+        flexDirection={{ xs: "column", md: "row" }}
         justifyContent={"center"}
         alignItems={"center"}
         gap={2}
@@ -194,13 +194,13 @@ export default function Servicios() {
         <Typography
           variant="body1"
           color={"paragraph"}
-          width={{xs: "88%", sm: "32%"}}
-          textAlign={{xs: "center", sm: "left"}}
-          sx={{textWrap: "balance"}}
+          width={{ xs: "88%", sm: "32%" }}
+          textAlign={{ xs: "center", sm: "left" }}
+          sx={{ textWrap: "balance" }}
         >
           Francisco Ternero es una empresa especializada en derribos, retirada
-          de amianto, excavaciones y demoliciones en Málaga. Más de 50 años de
-          experiencia nos avalan. Llámenos sin compromiso!.
+          de amianto, excavaciones y demoliciones. Nuestra experiencia nos
+          avala. Llámenos sin compromiso!.
         </Typography>
       </Box>
       <Ubi />

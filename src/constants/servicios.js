@@ -2,7 +2,7 @@ export const servicios = [
   {
     titulo: "Demoliciones",
     descripcion:
-      "Realizamos todo tipo de demoliciones y derribos en Málaga, incluso los más complejos. Contamos con una amplia experiencia y una flota de maquinaria de última generación que nos permite realizar cualquier trabajo con la máxima seguridad y eficacia. Nuestro equipo de profesionales altamente cualificados analizará sus necesidades y adaptará nuestros recursos para ofrecerle el mejor presupuesto",
+      "Realizamos todo tipo de demoliciones tanto manuales como mecánicas, incluso los más complejos. Contamos con una amplia experiencia y una flota de maquinaria de última generación que nos permite realizar cualquier trabajo con la máxima seguridad y eficacia. Nuestro equipo de profesionales altamente cualificados analizará sus necesidades y adaptará nuestros recursos para ofrecerle el mejor presupuesto",
     img: "/img/servicios/demoliciones.webp",
   },
   {

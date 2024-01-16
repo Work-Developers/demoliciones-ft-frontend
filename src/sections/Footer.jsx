@@ -1,6 +1,6 @@
-import {Box, Grid, Typography} from "@mui/material";
-import {socialMedia} from "../constants/socialMedia";
-import {Link} from "react-router-dom";
+import { Box, Grid, Typography } from "@mui/material";
+import { socialMedia } from "../constants/socialMedia";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -23,28 +23,10 @@ export default function Footer() {
               variant="h1"
               fontSize={"2rem"}
               color={"white.main"}
-              sx={{letterSpacing: 1}}
+              sx={{ letterSpacing: 1 }}
               mb={1}
             >
               Demoliciones FT S.L.
-            </Typography>
-            <Typography
-              variant="body1"
-              color={"white.main"}
-              maxWidth={{
-                xs: "100%",
-                sm: "100%",
-                md: "100%",
-                lg: "100%",
-                xl: "72%",
-              }}
-            >
-              Líderes en Demolición con 80 Años de Excelencia. Con más de 80
-              años de experiencia en demoliciones, Demoliciones Malagueñas S.A.
-              se destaca como líder en el sector a nivel local y nacional.
-              Contamos con una flota de maquinaria de última generación y un
-              equipo altamente calificado para abordar proyectos de cualquier
-              tamaño o complejidad con eficiencia y seguridad.
             </Typography>
           </Box>
         </Grid>
@@ -68,7 +50,7 @@ export default function Footer() {
             gap={4}
           >
             {socialMedia.map((redSocial) => {
-              const {title, src, link, description} = redSocial;
+              const { title, src, link, description } = redSocial;
               return (
                 <Link key={title} to={link} className="link-redes-sociales">
                   <Box
